@@ -71,8 +71,8 @@ var copyPreviousObjectiveHandler = function() {
 
 var augmentCallDetailsEntry = function() {
 	var row =  "<tr width='100%'>";
-	row += "<td>Product: <p><a href="openAssocPopup('AssocProductPopup?mapBC=Pharma+Call+Products+Detailed&#38;OACTRL=Name&#38;ophi=CallProdDetailNew.Product+Id&#38;pfid=CallProdDetailNew&#38;OMTHD=AssocPopup&#38;OMTGT=PopupSearchList&#38;assocInit=Y&#38;opht=4&#38;OAOBJ=Call+ProdDetail&#38;mapField=Name&#38;ophd=CallProdDetailNew.Name&#38;ophpd=1&#38;disableclear=Y&#38;ophr=AssocProductPopup',350,500,'OccamPopup1','CallProdDetailNew.Product Id',true,false);">
-                 <img border="0" src="buttonnext.gif" width="65" height="38"></a></p></td>";
+	row += "<td>Product: <p><a href="https://secure-ausomxapa.crmondemand.com/OnDemand/user/CallProdDetailNew?OMRET1=ContactCallDetail%3fOMTGT%3dContactCallForm%26OMTHD%3dActivityDetailNav%26ContactCallForm.Id%3dAAPA-2K60K2&OMCR0=AAPA-2K60K2&OMTGT=CallProdDetailNew&OMTHD=CallProdDetailNewNav&OMCBO=Action&OMRET0=ContactDetail%3focTitle%3dJack%2bHandey%26OMTGT%3dContactDetailForm%26OMTHD%3dContactDetailNav%26ocEdit%3dY%26OCTYPE%3dCustomer%26ocTitleField%3dFull%2bName%26ContactDetailForm.Id%3dAAPA-2GEFTS&OCNOEDITTYPE=Y">
+                 <img border="0" src="../1.10.0.1079.0.03/base/themes/oracle/images/iconSearch.gif" width="65" height="38"></a></p></td>";
 	row += "<td>Priority: <input type='text' size='1'></input></td>";
 	row += "<td>Indication: <select><option></option><option>Allergy</option><option>Asthma</option></td>";
 	row += "<td>Issues: <select><option></option><option>Side effects</option><option>Efficacy</option></td>";
