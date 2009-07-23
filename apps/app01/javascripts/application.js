@@ -1,4 +1,4 @@
-// sandbox ourselves to guarantee we don't interfere with OnDemand platform --Abhishek
+// sandbox ourselves to guarantee we don't interfere with OnDemand platform -Abhishek
 // JS internals
 jQuery(function($) {
     
