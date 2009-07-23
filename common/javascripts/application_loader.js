@@ -6,7 +6,7 @@
  
     // URL builder helper
     function appURL(relativePath) {
-      var basePath = 'http://github.com/savithasr/onext/raw/master';
+      var basePath = 'http://github.com/abhishekgupt/odext/raw/master';
          return basePath + relativePath;
     }
     
