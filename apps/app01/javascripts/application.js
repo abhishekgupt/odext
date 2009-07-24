@@ -74,8 +74,7 @@ var augmentCallDetailsEntry = function() {
 	row += "<td>Product:<td valign="bottom" width="58%"><table class="tb" cellspacing="0" cellpadding="0"><tr><td nowrap="nowrap"></td><td><input readonly="readonly" 
                 nowrap="nowrap" name="InvokeUserPopUp_display"
                 type="S_TEXT_TYPE" class="inputReadOnlySmall" value="Ethan Bischoff" id="InvokeUserPopUp_display" /></td><td nowrap="nowrap">
-                <img onclick="doNamedInvoke('InvokeUserPopUp', this);" style="cursor:pointer" src="../1.10.0.1079.0.03/base/themes/oracle/images/iconSearch.gif"
-                id="OCCAM_ICON_SEARCH" /></td></td>";
+                </td></td>";
 	row += "<td>Priority: <input type='text' size='1'></input></td>";
 	row += "<td>Indication: <select><option></option><option>Allergy</option><option>Asthma</option></td>";
 	row += "<td>Issues: <select><option></option><option>Side effects</option><option>Efficacy</option></td>";
