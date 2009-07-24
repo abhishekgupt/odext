@@ -71,7 +71,7 @@ var copyPreviousObjectiveHandler = function() {
 
 var augmentCallDetailsEntry = function() {
 	var row =  "<tr width='100%'>";
-	row += "<td><span class="requiredText">Product*</span><select><option></option><option>Singulair</option><option>Hyzaar</option></td>";
+	row += "<td>Product: <select><option></option><option>Singulair</option><option>Hyzaar</option></td>";
 	row += "<td>Priority: <input type='text' size='1'></input></td>";
 	row += "<td>Indication: <select><option></option><option>Allergy</option><option>Asthma</option></td>";
 	row += "<td>Issues: <select><option></option><option>Side effects</option><option>Efficacy</option></td>";
