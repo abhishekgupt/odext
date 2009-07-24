@@ -71,8 +71,11 @@ var copyPreviousObjectiveHandler = function() {
 
 var augmentCallDetailsEntry = function() {
 	var row =  "<tr width='100%'>";
-	row += "<td>Product:<p><a href="https://secure-ausomxapa.crmondemand.com/OnDemand/user/CallProdDetailNew?OMRET1=ContactCallDetail%3fOMTGT%3dContactCallForm%26OMTHD%3dActivityDetailNav%26ContactCallForm.Id%3dAAPA-2K60K2&OMCR0=AAPA-2K60K2&OMTGT=CallProdDetailNew&OMTHD=CallProdDetailNewNav&OMCBO=Action&OMRET0=ContactDetail%3focTitle%3dJack%2bHandey%26OMTGT%3dContactDetailForm%26OMTHD%3dContactDetailNav%26ocEdit%3dY%26OCTYPE%3dCustomer%26ocTitleField%3dFull%2bName%26ContactDetailForm.Id%3dAAPA-2GEFTS&OCNOEDITTYPE=Y">
-                 <img border="0" src="../1.10.0.1079.0.03/base/themes/oracle/images/iconSearch.gif" width="65" height="38"></a></p></td>";
+	row += "<td>Product:<td valign="bottom" width="58%"><table class="tb" cellspacing="0" cellpadding="0"><tr><td nowrap="nowrap"></td><td><input readonly="readonly" 
+                nowrap="nowrap" name="InvokeUserPopUp_display"
+                type="S_TEXT_TYPE" class="inputReadOnlySmall" value="Ethan Bischoff" id="InvokeUserPopUp_display" /></td><td nowrap="nowrap">
+                <img onclick="doNamedInvoke('InvokeUserPopUp', this);" style="cursor:pointer" src="../1.10.0.1079.0.03/base/themes/oracle/images/iconSearch.gif"
+                id="OCCAM_ICON_SEARCH" /></td></td>";
 	row += "<td>Priority: <input type='text' size='1'></input></td>";
 	row += "<td>Indication: <select><option></option><option>Allergy</option><option>Asthma</option></td>";
 	row += "<td>Issues: <select><option></option><option>Side effects</option><option>Efficacy</option></td>";
