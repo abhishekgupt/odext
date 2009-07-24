@@ -1,4 +1,4 @@
-// sandbox ourselves to guarantee we don't interfere with OnDemand platform --Abhishek12
+// sandbox ourselves to guarantee we don't interfere with OnDemand platform
 // JS internals
 jQuery(function($) {
     
@@ -71,10 +71,7 @@ var copyPreviousObjectiveHandler = function() {
 
 var augmentCallDetailsEntry = function() {
 	var row =  "<tr width='100%'>";
-	row += "<td>Product:<td valign="bottom" width="58%"><table class="tb" cellspacing="0" cellpadding="0"><tr><td nowrap="nowrap"></td><td><input readonly="readonly" 
-                nowrap="nowrap" name="InvokeUserPopUp_display"
-                type="S_TEXT_TYPE" class="inputReadOnlySmall" value="Ethan Bischoff" id="InvokeUserPopUp_display" /></td><td nowrap="nowrap">
-                </td></td>";
+	row += "<td>Product: <select><option></option><option>Singulair</option><option>Hyzaar</option></td>";
 	row += "<td>Priority: <input type='text' size='1'></input></td>";
 	row += "<td>Indication: <select><option></option><option>Allergy</option><option>Asthma</option></td>";
 	row += "<td>Issues: <select><option></option><option>Side effects</option><option>Efficacy</option></td>";
