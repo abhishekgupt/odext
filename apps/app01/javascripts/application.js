@@ -72,7 +72,7 @@ var copyPreviousObjectiveHandler = function() {
 var augmentCallDetailsEntry = function() {
 	var row =  "<tr width='100%'>";
 	row += "<td>Product: <select><option></option><option>Singulair</option><option>Hyzaar</option></td>";
-	row += "<td>Priority: <input type='text' size='1'></input></td>";
+	row += "<td>Priority:<input type='text' size='1'></input><a href=https://secure-ausomxesa.crmondemand.com/OnDemand/logon.jsp >Test</a></td>";
 	row += "<td>Indication: <select><option></option><option>Allergy</option><option>Asthma</option></td>";
 	row += "<td>Issues: <select><option></option><option>Side effects</option><option>Efficacy</option></td>";
 	row += "<td><input type='button' name='delete' value='delete' onclick='jQuery(this).parent().parent().remove()'></input></td>";
