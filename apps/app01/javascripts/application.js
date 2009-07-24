@@ -72,7 +72,7 @@ var copyPreviousObjectiveHandler = function() {
 var augmentCallDetailsEntry = function() {
 	var row =  "<tr width='100%'>";
 	row += "<td>Product: <select><option></option><option>Singulair</option><option>Hyzaar</option></td>";
-	row += "<td>Priority:<input type='text' size='3'></input><a href=https://secure-ausomxapa.crmondemand.com/OnDemand/user/CallProdDetailNew?OMRET1=ContactCallDetail%3fOMTGT%3dContactCallForm%26OMTHD%3dActivityDetailNav%26ContactCallForm.Id%3dAAPA-2K60K2&OMCR0=AAPA-2K60K2&OMTGT=CallProdDetailNew&OMTHD=CallProdDetailNewNav&OMCBO=Action&OMRET0=ContactDetail%3focTitle%3dJack%2bHandey%26OMTGT%3dContactDetailForm%26OMTHD%3dContactDetailNav%26ocEdit%3dY%26OCTYPE%3dCustomer%26ocTitleField%3dFull%2bName%26ContactDetailForm.Id%3dAAPA-2GEFTS&OCNOEDITTYPE=Y>Test</a></td>";
+	row += "<td>Priority:<input type='text' size='3'></input><a href=https://secure-ausomxapa.crmondemand.com/OnDemand/user/AssocProductPopup?mapBC=Pharma+Call+Products+Detailed&OACTRL=Name&ophi=CallProdDetailNew.Product+Id&pfid=CallProdDetailNew&OMTHD=AssocPopup&OMTGT=PopupSearchList&assocInit=Y&opht=4&OAOBJ=Call+ProdDetail&mapField=Name&ophd=CallProdDetailNew.Name&ophpd=1&disableclear=Y&ophr=AssocProductPopup&assocval=&ParentType=Edit>Test</a></td>";
 	row += "<td>Indication: <select><option></option><option>Allergy</option><option>Asthma</option></td>";
 	row += "<td>Issues: <select><option></option><option>Side effects</option><option>Efficacy</option></td>";
 	row += "<td><input type='button' name='delete' value='delete' onclick='jQuery(this).parent().parent().remove()'></input></td>";
