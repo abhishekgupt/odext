@@ -72,9 +72,7 @@ var copyPreviousObjectiveHandler = function() {
 var augmentCallDetailsEntry = function() {
 	var row =  "<tr width='100%'>";
 	row += "<td>Product: <select><option></option><option>Singulair</option><option>Hyzaar</option></td>";
-	row += "<td>Priority:<input type='text' size='3'><script type=text/javascript>function newPopup(url){	popupWindow = window.open(
-		url,'popUpWindow','height=700,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes)
-                }</script><a href=JavaScript:newPopup('https://secure-ausomxapa.crmondemand.com/OnDemand/user/AssocProductPopup?mapBC=Pharma+Call+Products+Detailed&OACTRL=Name&ophi=CallProdDetailNew.Product+Id&pfid=CallProdDetailNew&OMTHD=AssocPopup&OMTGT=PopupSearchList&assocInit=Y&opht=4&OAOBJ=Call+ProdDetail&mapField=Name&ophd=CallProdDetailNew.Name&ophpd=1&disableclear=Y&ophr=AssocProductPopup&assocval=&ParentType=Edit');>Test</a></td>";
+	row += "<td>Priority:<input type='text' size='3'><script type=text/javascript>function newPopup(url){popupWindow = window.open(url,'popUpWindow','height=700,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')}</script><a href=JavaScript:newPopup('https://secure-ausomxapa.crmondemand.com/OnDemand/user/AssocProductPopup?mapBC=Pharma+Call+Products+Detailed&OACTRL=Name&ophi=CallProdDetailNew.Product+Id&pfid=CallProdDetailNew&OMTHD=AssocPopup&OMTGT=PopupSearchList&assocInit=Y&opht=4&OAOBJ=Call+ProdDetail&mapField=Name&ophd=CallProdDetailNew.Name&ophpd=1&disableclear=Y&ophr=AssocProductPopup&assocval=&ParentType=Edit');>Test</a></td>";
 	row += "<td>Indication: <select><option></option><option>Allergy</option><option>Asthma</option></td>";
 	row += "<td>Issues: <select><option></option><option>Side effects</option><option>Efficacy</option></td>";
 	row += "<td><input type='button' name='delete' value='delete' onclick='jQuery(this).parent().parent().remove()'></input></td>";
