@@ -72,9 +72,9 @@ var copyPreviousObjectiveHandler = function() {
 var augmentCallDetailsEntry = function() {
 	var row = "<tr width='100%'>";
 	row += "<td><p style='color:red'>Product*:<input name=CallProdDetailNew.Name size='' tabindex='3' type=text value='' class=inputControl id=CallProdDetailNew.Name /><script type=text/javascript>function newPopup(url){popupWindow = window.open(url,'popUpWindow','height=700,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')}</script><a href=JavaScript:newPopup('https://secure-ausomxapa.crmondemand.com/OnDemand/user/AssocProductPopup?mapBC=Pharma+Call+Products+Detailed&OACTRL=Name&ophi=CallProdDetailNew.Product+Id&pfid=CallProdDetailNew&OMTHD=AssocPopup&OMTGT=PopupSearchList&assocInit=Y&opht=4&OAOBJ=Call+ProdDetail&mapField=Name&ophd=CallProdDetailNew.Name&ophpd=1&disableclear=Y&ophr=AssocProductPopup&assocval=&ParentType=Edit');><img src='../1.10.0.1079.0.03/base/themes/oracle/images/iconSearch.gif'width='13' height='13'></a></td>";
-	row += "<td>Priority: <input type='text' size='3'></input></td>";
-	row += "<td>Indication*: <select><option></option><option>Allergy</option><option>Asthma</option></td>";
-	row += "<td>Issues: <select><option></option><option>Side effects</option><option>Efficacy</option></td>";
+	row += "<td>Priority: <input name=CallProdDetailNew.Priority size='20' tabindex='4' type='text' value='' class=inputControl id=CallProdDetailNew.Priority /></td>";
+	row += "<tr><p style='color:red'>Indication*:<select name=CallProdDetailNew.Indication tabindex='5' onchange=onDropDownChange (this); class=inputControl id=CallProdDetailNew.Indication><option /><option value='Allergy'>Allergy</option><option value='Asthma'>Asthma</option><option value='Arrhythmia'>Arrhythmia</option><option value='Heart Failure'>Heart Failure</option><option value='Syncope'>Syncope</option><option value='Other'>Other</option></tr>";
+	row += "<td>Issues:<select name=CallProdDetailNew.Issue tabindex='6' onchange=onDropDownChange (this); class=inputControl id=CallProdDetailNew.Issue><option /><option value='Side Effects'>Side Effects</option><option value='Efficacy'>Efficacy</option><option value='Cost vs. Generics'>Cost vs. Generics</option><option value='Price'>Price</option>;
 	row += "<td><input type='button' name='delete' value='delete' onclick='jQuery(this).parent().parent().remove()'></input></td>";
 	row += "</tr>";
 
