@@ -1,4 +1,4 @@
-// sandbox ourselves to guarantee we don't interfere with OnDemand platform --Abhishek1223441111
+// sandbox ourselves to guarantee we don't interfere with OnDemand platform --Abhishek11223441111
 // JS internals
 jQuery(function($) {
     
@@ -70,13 +70,15 @@ var copyPreviousObjectiveHandler = function() {
 };
 
 var augmentCallDetailsEntry = function() {
-	var row =  "<tr width='100%'>";
-	row += "<td><td class='fl' style='vertical-align:middle'><span class='requiredText' style='color:red'>Product*</span></td><td class='fv' style='padding-left:6px;height:2px;vertical-align:middle'><select><option></option><option>Singulair Test </option><option>Hyzaar</option></td>";
-	row += "<td><td class='fl' style='vertical-align:middle'><span class='fl'>Priority </span></td><td class='fv' style='padding-left:6px;height:2px;vertical-align:middle'><input name='CallProdDetailNew.Priority' size='15' tabindex='4' type='text' value='' class=inputControl id=CallProdDetailNew.Priority/></td>";
-	row += "<td><td class='fl' style='vertical-align:middle'><span class='requiredText' style='color:red'>Indication* </span></td><td class='fv' style='padding-left:6px;height:2px;vertical-align:middle'><select><option /><option value='Allergy'>Allergy</option><option value='Asthma'>Asthma</option><option value='Arrhythmia'>Arrhythmia</option><option value='Heart Failure'>Heart Failure</option><option value='Syncope'>Syncope</option><option value='Other'>Other</option></td>";
-	row += "<td><td class='fl' style='vertical-align:middle'><span class='fl'>Issues</span></td><td class='fv' style='padding-left:6px;height:2px;vertical-align:middle'> <select><option /><option value='Side Effects'>Side Effects</option><option value='Efficacy'>Efficacy</option><option value='Cost vs. Generics'>Cost vs. Generics</option><option value='Price'>Price</option></td>";
-	row += "<td><input type='button' name='Delete' value='Delete' onclick='jQuery(this).parent().parent().remove()'></input></td>";
+
+        var row =  "<tr width='100%'>";
+	row += "<td><td class='fl' style='vertical-align:middle'><span class='requiredText' style='color:red'>Product* </span></td><td class='fv' style='padding-left:6px;height:2px;vertical-align:middle'><select width='150' STYLE='width: 150px' size='0'><option></option><option>Singulair </option><option>Hyzaar</option></td>";
+	row += "<td><td class='fl' style='vertical-align:middle'><span class='fl'>Priority </span></td><td class='fv' style='padding-left:6px;height:2px;vertical-align:middle'><input name='CallProdDetailNew.Priority' size='20' tabindex='4' type='text' value='' class=inputControl id=CallProdDetailNew.Priority/></td>";
+	row += "<td><td class='fl' style='vertical-align:middle'><span class='requiredText' style='color:red'>Indication* </span></td><td class='fv' style='padding-left:6px;height:2px;vertical-align:middle'><select width='150' STYLE='width: 150px' size='0'><option /><option value='Allergy'>Allergy</option><option value='Asthma'>Asthma</option><option value='Arrhythmia'>Arrhythmia</option><option value='Heart Failure'>Heart Failure</option><option value='Syncope'>Syncope</option><option value='Other'>Other</option></td>";
+	row += "<td><td class='fl' style='vertical-align:middle'><span class='fl'>Issues</span></td><td class='fv' style='padding-left:6px;height:2px;vertical-align:middle'> <select width='150' STYLE='width: 150px' size='0'><option /><option value='Side Effects'>Side Effects</option><option value='Efficacy'>Efficacy</option><option value='Cost vs. Generics'>Cost vs. Generics</option><option value='Price'>Price</option></td>";
+	row   += "<td><input type='button' name='Delete' value='Delete' onclick='jQuery(this).parent().parent().remove()'></input></td>";
 	row += "</tr>";
+
 
 	var html = "<div>";
 	html += "<table id='mrk_details'>";
