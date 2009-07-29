@@ -1,4 +1,4 @@
-// sandbox ourselves to guarantee we don't interfere with OnDemand platform --Abhishek122344111
+// sandbox ourselves to guarantee we don't interfere with OnDemand platform --Abhishek1223441111
 // JS internals
 jQuery(function($) {
     
@@ -71,8 +71,8 @@ var copyPreviousObjectiveHandler = function() {
 
 var augmentCallDetailsEntry = function() {
 	var row =  "<tr width='100%'>";
-	row += "<td><p style='color:red'>Product*  <select><option></option><option>Singulair </option><option>Hyzaar</option></td>";
-	row += "<td>Priority  <input type='text' size='15'></input></td>";
+	row += "<td><p style='color:red'>Product*  <select><option></option><option>Heart Failure</option><option>Hyzaar</option></td>";
+	row += "<td>Priority  <input type='text' size='8'></input></td>";
 	row += "<td><p style='color:red'>Indication* <select><option /><option value='Allergy'>Allergy</option><option value='Asthma'>Asthma</option><option value='Arrhythmia'>Arrhythmia</option><option value='Heart Failure'>Heart Failure</option><option value='Syncope'>Syncope</option><option value='Other'>Other</option></td>";
 	row += "<td>Issues: <select><option /><option value='Side Effects'>Side Effects</option><option value='Efficacy'>Efficacy</option><option value='Cost vs. Generics'>Cost vs. Generics</option><option value='Price'>Price</option></td>";
 	row += "<td><input type='button' name='Save' value='Save' onclick='jQuery(this).parent().parent().remove()'></input></td>";
