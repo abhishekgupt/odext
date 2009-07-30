@@ -76,7 +76,7 @@ var augmentCallDetailsEntry = function() {
 	row += "<td><td class='fl' style='vertical-align:middle'><span class='fl'>Priority </span></td><td class='fv' style='padding-left:6px;height:2px;vertical-align:middle'><input name='CallProdDetailNew.Priority' size='20' tabindex='4' type='text' value='' class=inputControl id=CallProdDetailNew.Priority/></td>";
 	row += "<td><td class='fl' style='vertical-align:middle'><span class='requiredText' style='color:red'>Indication* </span></td><td class='fv' style='padding-left:6px;height:2px;vertical-align:middle'><select width='130' STYLE='width: 130px' size='0'><option /><option value='Allergy'>Allergy</option><option value='Asthma'>Asthma</option><option value='Arrhythmia'>Arrhythmia</option><option value='Heart Failure'>Heart Failure</option><option value='Syncope'>Syncope</option><option value='Other'>Other</option></td>";
 	row += "<td><td class='fl' style='vertical-align:middle'><span class='fl'>Issues</span></td><td class='fv' style='padding-left:6px;height:2px;vertical-align:middle'> <select width='130' STYLE='width: 130px' size='0'><option /><option value='Side Effects'>Side Effects</option><option value='Efficacy'>Efficacy</option><option value='Cost vs. Generics'>Cost vs. Generics</option><option value='Price'>Price</option></td>";
-	row += "<td><input type='button' name='Delete' value='Delete' onclick='jQuery(this).parent().parent().remove()'></input></td>";
+	row += "<td><div class='buttonChildTitleBarTD' id='testdiv' onclick='jQuery(this).parent().parent().remove()'>Delete</div></td><td width='100%'></td>";
 	row += "</tr>";
 
 
