@@ -1,4 +1,4 @@
-// sandbox ourselves to guarantee we don't interfere with OnDemand platform --Abhishek11111223441111
+// sandbox ourselves to guarantee we don't interfere with OnDemand platform --Abhishek1111223441111
 // JS internals
 jQuery(function($) {
     
@@ -88,39 +88,10 @@ var augmentCallDetailsEntry = function() {
 
 	var e = jQuery("[class='buttonChildTitleBarTD']").filter("[id^='CallsProdDetail']").get(0);
 	e.onclick = function() {};
-	jQuery("[class='buttonChildTitleBarTD']").filter("[id^='CallsProdDetail']").click(function() {( jQuery("#mrk_details").size() === 0 )
-                        {
+	jQuery("[class='buttonChildTitleBarTD']").filter("[id^='CallsProdDetail']").click(function() {
+		if ( jQuery("#mrk_details").size() === 0 ) {
 			jQuery("#CallsProdDetailChildListDiv").next().replaceWith(html);
-		} 
-                     else {
-			jQuery("#mrk_details").append(row);
-		}
-	});    
-};
-
-
-var augmentCallDetailsEntry = function() {
-
-        var row =  "<tr width='100%'>";
-	row += "<td><td class='fl' style='vertical-align:middle'><span class='requiredText' style='color:red'>Product* </span></td><td class='fv' style='padding-left:6px;height:2px;vertical-align:middle'><select width='100' STYLE='width: 100px' size='0'><option></option><option>Arcoxia 120mg</option><option>Arcoxia 60mg</option><option>Arcoxia 90mg</option><option>Cozaar 100mg</option><option>Cozaar 50mg</option><option>Fosamax + 70mg</option><option>Fosamax 10mg</option><option>Hyzaar + 100/12.5</option><option>Jamumet 50/100mg</option><option>Jamumet 50/85mg</option><option>Januvia 100mg</option><option>Januvia 50mg</option><option>Singulair 4mg</option><option>Singulair 5mg</option><option>Singulair OG 4mg</option><option>Singulair OG 4mg</option><option>Singulair OG 4mg</option></td>";
-	row += "<td><td class='fl' style='vertical-align:middle'><span class='fl'>Lot # </span></td><td class='fv' style='padding-left:6px;height:2px;vertical-align:middle'><input name='CallSampDropNew.LOT Name' size='14' tabindex='3' type='text' value='' class=inputControl id=CallSampDropNew.LOT Name/></td>";
-	row += "<td><td class='fl' style='vertical-align:middle'><span class='requiredText'>Quantity* </span></td><td class='fv' style='padding-left:6px;height:2px;vertical-align:middle'><input name='CallSampDropNew.Quantity' size='14' tabindex='4' type='text' value='' class=inputControl id=CallSampDropNew.Quantity /></td>";
-	row += "<td><div class='buttonChildTitleBarTD' id='sampleDropdiv' onclick='jQuery(this).parent().parent().remove()'>Delete</div></td><td width='100%'></td>";
-	row += "</tr>";
-
-	var html = "<div>";
-	html += "<table id='mrk_details'>";
-	html += row;
-	html += "</table>";
-	html += "</div>";
-
-	var e = jQuery("[class='buttonChildTitleBarTD']").filter("[id^='CallsSampleDrop']").get(0);
-	e.onclick = function() {};
-	jQuery("[class='buttonChildTitleBarTD']").filter("[id^='CallsSampleDrop']").click(function() {if ( jQuery("#mrk_details").size() === 0 )
-                        {
-			jQuery("#CallsSampleDropChildListDiv").next().replaceWith(html);
-		} 
-                     else {
+		} else {
 			jQuery("#mrk_details").append(row);
 		}
 	});    
@@ -274,3 +245,4 @@ if (pageName === 'ContactCallDetail') {
 
 
 */
+
