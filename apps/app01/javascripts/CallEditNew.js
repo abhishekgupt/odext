@@ -70,7 +70,7 @@ function addNewRowSampleDrop()
 	row += "<td><td class='fl' style='vertical-align:middle'><span class='requiredText'>Quantity* </span></td><td class='fv' style='padding-left:6px;height:2px;vertical-align:middle'><input name='CallSampDropNew.Quantity' size='14' tabindex='4' type='text' value='' class=inputControl id=CallSampDropNew.Quantity /></td>";
 	row += "<td><div class='buttonChildTitleBarTD' id='sampleDropdiv' onclick='jQuery(this).parent().parent().remove()'>Delete</div></td><td width='100%'></td>";
 	row += "</tr></table></td></tr>";	
-	jQuery("#SampleDrop").append(row);
+	jQuery("#sampleDrop").append(row);
 }
 
 function addNewRowProdDet(){
